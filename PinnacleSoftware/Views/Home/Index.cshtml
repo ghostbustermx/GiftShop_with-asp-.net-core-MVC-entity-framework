@@ -1,0 +1,622 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/gift_shop_1.jpg" alt="GIFT SHOP" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Lorem ipsum dolor sit amet.
+                    <a class="btn btn-default" href="https://sonorasoft.com/" target="_blank">
+                        Visit Us
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/gift_shop_2.jpg" alt="GIFT SHOP" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Lorem ipsum dolor sit amet.
+                    <a class="btn btn-default" href="https://sonorasoft.com/" target="_blank">
+                        Visit Us
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/gift_shop_3.jpg" alt="GIFT SHOP" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                   Lorem ipsum dolor sit amet.
+                    <a class="btn btn-default" href="https://sonorasoft.com/" target="_blank">
+                        Visit Us
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/gift_shop_4.jpg" alt="GIFT SHOP" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Lorem ipsum dolor sit amet.
+                    <a class="btn btn-default" href="https://sonorasoft.com/" target="_blank">
+                        Visit Us
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="row">
+    <div class="conten">
+        <div class="col-md-3">
+            <div class="panel  panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Teddy Bears</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="#" data-toggle='modal' data-target='#modalTeddys' onclick="reportesCursos();" class="thumbnail">
+                        <img src="~/images/osos_1.png" alt="Teddy Bears">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel  panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Ceramics</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="#" data-toggle='modal' data-target='#modalCeramics' onclick="reportesCursos();" class="thumbnail">
+                        <img src="~/images/ceramica_2.PNG" alt="Ceramics">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel  panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Hats</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="#" data-toggle='modal' data-target='#modalHats' onclick="reportesCursos();" class="thumbnail">
+                        <img src="~/images/gorras_1.png" alt="Hats">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel  panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Balloons</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="#" data-toggle='modal' data-target='#modalBallons' onclick="reportesCursos();" class="thumbnail">
+                        <img src="~/images/globos_3.png" alt="Balloons">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="modalTeddys" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="Formularios" id="Imprimir">
+                <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="6000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel2" data-slide-to="1"></li>
+                        <li data-target="#myCarousel2" data-slide-to="2"></li>
+                        <li data-target="#myCarousel2" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Teddy Bears 1</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalTeddys' class="thumbnail">
+                                            <img src="~/images/osos_1.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 200.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Teddy Bears 2</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalTeddys' class="thumbnail">
+                                            <img src="~/images/osos_2.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 400.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Teddy Bears 3</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalTeddys' class="thumbnail">
+                                            <img src="~/images/osos_3.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 150.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Teddy Bears 4</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalTeddys' class="thumbnail">
+                                            <img src="~/images/osos_4.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 600.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                    <div class="modal-footer">
+                        <div class="panel-body">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="paginadorReportes">
+
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="modal fade" id="modalCeramics" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="Formularios" id="Imprimir">
+                <div id="myCarousel3" class="carousel slide" data-ride="carousel" data-interval="6000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel3" data-slide-to="1"></li>
+                        <li data-target="#myCarousel3" data-slide-to="2"></li>
+                        <li data-target="#myCarousel3" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ceramics 1</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalCeramics' class="thumbnail">
+                                            <img src="~/images/ceramica_1.PNG" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 200.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ceramics 2</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalCeramics' class="thumbnail">
+                                            <img src="~/images/ceramica_2.PNG" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 400.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ceramics 3</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalCeramics' class="thumbnail">
+                                            <img src="~/images/ceramica_3.PNG" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 150.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ceramics 4</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalCeramics' class="thumbnail">
+                                            <img src="~/images/ceramica_4.PNG" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 600.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="panel-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div id="paginadorReportes">
+
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalHats" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="Formularios" id="Imprimir">
+                <div id="myCarousel4" class="carousel slide" data-ride="carousel" data-interval="6000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel4" data-slide-to="1"></li>
+                        <li data-target="#myCarousel4" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Hats 1</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalHats' class="thumbnail">
+                                            <img src="~/images/gorras_1.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 200.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Hats 2</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalHats' class="thumbnail">
+                                            <img src="~/images/gorras_2.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 400.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Hats 3</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalHats' class="thumbnail">
+                                            <img src="~/images/gorras_3.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 150.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="panel-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div id="paginadorReportes">
+
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalBallons" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="Formularios" id="Imprimir">
+                <div id="myCarousel5" class="carousel slide" data-ride="carousel" data-interval="6000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel5" data-slide-to="1"></li>
+                        <li data-target="#myCarousel5" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ballons 1</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalBallons' class="thumbnail">
+                                            <img src="~/images/globos_1.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 200.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ballons 2</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalBallons' class="thumbnail">
+                                            <img src="~/images/globos_2.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 400.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="modal-body">
+                                <div class="panel  panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Ballons 3</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <a href="#" data-toggle='modal' data-target='#modalBallons' class="thumbnail">
+                                            <img src="~/images/globos_3.png" alt="Teddy Bears">
+
+                                            <div role="option">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet.
+                                                    <h5>$ 150.00</h5>
+                                                    <h4>Add to cart</h4>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel5" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="panel-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div id="paginadorReportes">
+
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+﻿@model IEnumerable<PinnacleSoftware.Models.Producto>
+
+@{
+    ViewData["Title"] = "Inventory";
+}
+
+<h2>Inventory</h2>
+
+<p>
+
+    <a class="btn btn-primary" data-toggle="modal" data-target="#modalAgregar">Add</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Costo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Costo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Categoria.CategoriaID)
+                </td>
+                <td>
+                    <a class="btn btn-success" data-toggle="modal" data-target="#modalEditar" onclick="GetUsuario('@item.ProductoID','Usuarios/GetUsuario')">Edit</a> |
+                    <a class="btn btn-info" onclick="GetUsuario('@item.ProductoID','Usuarios/GetUsuario')" data-toggle="modal" data-target="#modalDetalle">Details</a> |
+                    <a class="btn btn-danger" data-toggle="modal" data-target="#modalEliminar" onclick="GetUsuario('@item.ProductoID','Usuarios/GetUsuario')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalAgregar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Add Product</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="Catagories" class="control-label">Category</label>
+                        <select id="SelectNuevo" name="SelectNuevo" class="form-control" onclick="getRoles('Usuarios/GetRoles');">
+                            <option value="0">Select category</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Nombre" class="control-label">Name</label>
+                        <input name="Nombre" id="Nombre" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Descripcion" class="control-label">Description</label>
+                        <input name="Descripcion" id="Descripcion" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Costo" class="control-label">Price</label>
+                        <input name="Costo" id="Costo" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Estado" class="control-label">Estate</label>
+                        <select id="Estado" name="Estado" class="form-control">
+                            <option value="true">Active</option>
+                            <option value="false">Inactive</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <p id="mensajenuevo"></p>
+                    </div>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="crearUsuario('Usuarios/CreateUsuario')">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
