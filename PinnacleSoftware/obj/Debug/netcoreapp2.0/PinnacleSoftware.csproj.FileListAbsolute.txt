@@ -10,3 +10,15 @@ C:\Users\Administrador\source\repos\PinnacleSoftware\PinnacleSoftware\obj\Debug\
 C:\Users\Administrador\source\repos\PinnacleSoftware\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.pdb
 C:\Users\Administrador\source\repos\PinnacleSoftware\PinnacleSoftware\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\Users\Administrador\source\repos\PinnacleSoftware\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.csprojAssemblyReference.cache
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\bin\Debug\netcoreapp2.0\PinnacleSoftware.deps.json
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\bin\Debug\netcoreapp2.0\PinnacleSoftware.runtimeconfig.json
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\bin\Debug\netcoreapp2.0\PinnacleSoftware.runtimeconfig.dev.json
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\bin\Debug\netcoreapp2.0\PinnacleSoftware.dll
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\bin\Debug\netcoreapp2.0\PinnacleSoftware.pdb
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.csprojAssemblyReference.cache
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.csproj.CoreCompileInputs.cache
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.AssemblyInfoInputs.cache
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.AssemblyInfo.cs
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.dll
+C:\Users\ggvillegas\Documents\GitHub\GiftShop_with-asp-.net-core-MVC-entity-framework\PinnacleSoftware\obj\Debug\netcoreapp2.0\PinnacleSoftware.pdb
